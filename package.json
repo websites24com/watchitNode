@@ -1,0 +1,30 @@
+{
+  "name": "watchit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/websites24com/watchitNode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/websites24com/watchitNode/issues"
+  },
+  "homepage": "https://github.com/websites24com/watchitNode#readme",
+  "bin": {
+    "watchit": "index.js"
+  },
+  "dependencies": {
+    "caporal": "^1.4.0",
+    "chalk": "^5.2.0",
+    "chokidar": "^3.5.3",
+    "lodash.debounce": "^4.0.8"
+  }
+}
